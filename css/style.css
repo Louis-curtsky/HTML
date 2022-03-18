@@ -88,6 +88,9 @@ width:auto;
   width: auto;  
 }
 
+#loginID{
+  padding: 5%;
+}
 .title{
   grid-area: loginhead;
   display:flex;
@@ -112,10 +115,6 @@ width:auto;
   border: 3px solid purple;
 }
 
-#loginID{
- align-items: center;
- vertical-align: middle; 
-}
 .intro {
   grid-area: intro;
   background-color:darkslateblue;
