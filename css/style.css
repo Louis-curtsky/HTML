@@ -43,7 +43,7 @@ body {
 
 .index-content {
   display: grid;
-  width: 1024;
+  width: auto;
   grid-template-areas:
   "intro aside"
   "headline aside"
@@ -52,7 +52,7 @@ body {
   gap: 5px;
   background-color:bisque;
   padding: 10px 0;
-  margin-left: 2%;
+  margin-left: 0px;
   width: auto;
 }
 
@@ -153,7 +153,7 @@ width:auto;
   grid-area: aside;
   background-color:aqua;
   text-align: center;
-  width:fit-content;
+  width:300px;
   height:auto;
 }
 
