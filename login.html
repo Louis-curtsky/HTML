@@ -4,34 +4,45 @@
     <head>
         <meta charset = "UTF-8"/>
         <title>HTML Assignment 1 - About Tea culture</title>
+        <link rel="stylesheet" href="/css/style.css"/>
     </head>
 
     <body>
         <!--what we want to show the user-->
-        <header>
-            <img src="/Images/myLogo.jpg"  height="100" width="auto" alt="Logo Image"/>
-            <h2>Tea Select</h2>
-            <ol>
-                <nav>
-                <li><a href="https://www.w3schools.com/">Black Tea</a></li>
-                <li><a href="#">Red Tea</a></li>
-                <li><a href="#">Green Tea</a></li>
-                <li><a href="#">Flower Tea</a></li>
-                <li><a href="#">Herbal Tea</a></li>
-                </nav>
-            </ol>
-                <p><a href="/index.html">Index</a></p>
-        </header>
-        <h3>User login</h3>
-        <form>
-            <input type="text" name="loginName">
-            <input type="password" name="password">
-            <button type="submit">Submit</button>  
-            <button type="reset">Reset</button>  
- 
-        </form>  
+        <header id="headerColumn">
+            <img id="logo" src="/Images/myLogo.jpg" height="100" width="auto"/>
+            <h2 id="logoText">Tea Select</h2>
+                <ol id="logohead">
+                    <nav class="headmenu">
+                        <li><a href="https://www.w3schools.com/">Black Tea</a></li>
+                        <li><a href="#">Red Tea</a></li>
+                        <li><a href="#">Green Tea</a></li>
+                        <li><a href="#">Flower Tea</a></li>
+                        <li><a href="#">Herbal Tea</a></li>
+                    </nav>
+                </ol>
+                <a id="login" href="/login.html" target="_blank">Login</a>
+        </header> 
+        <div id="maincontent" class="login-content">
+            <div class="loginmain">
+                <h3 class="logintitle">User login</h3>
+                <div class="loginform">
+                    <form id="loginID">
+                        <input type="text" name="loginName">
+                        <input type="password" name="password">
+                        <button type="submit">Submit</button>  
+                        <button type="reset">Reset</button>  
+             
+                    </form>  
+                </div>
+            </div>
+        </div>
         </body>
-        <footer>
-            <span >&copy; Louis Skogen</span>
-        </footer>
+        <div class="footer">
+
+            <footer>
+                <span >&copy; Louis Skogen</span>
+            </footer>
+            
+        </div>
 </html>
