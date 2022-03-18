@@ -141,13 +141,6 @@ width:auto;
   height: 700px
 }
 
-.artLeft{
-grid-area: artLeft;
-display: block;
-background-color:chocolate;
-width:auto;
-}
-
 .artRight{
   grid-area: artRight;
   display: block;
@@ -172,6 +165,7 @@ ul{
 
 #logo{
   grid-area: logo;
+  width:auto;
   padding: 2px;
 }
 
@@ -215,5 +209,18 @@ padding: 5px;
 margin-left: 3%;
 }
 
+.flexrow {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.flexcol {
+  flex: 50%;
+  padding: 10px;
+  height: 300px; 
+  background-color: beige;
+  padding: 10px;
+  margin: 1%;
+}
 
 
