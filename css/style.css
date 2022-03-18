@@ -88,12 +88,13 @@ width:auto;
   width: auto;  
 }
 
-.logintitle{
+.title{
   grid-area: loginhead;
-  display:block;
+  display:flex;
   background-color: #8d6bb4;
   margin-left: 10%;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
   width: 300px;
   height: 70px
 }
@@ -117,11 +118,13 @@ width:auto;
 
 .headline {
   grid-area: headline;
-  width: 200px;
+  display:flex;
   background-color: #8d6bb4;
-  padding: 10px;
   margin-left: 2%;
-  height:fit-content;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 70px
 }
 
 
@@ -138,18 +141,14 @@ width:auto;
   margin-left: 2%;
   padding: 10px 0;
   width: 900px;
-  height: 700px
+  height: auto
 }
 
-.artRight{
-  grid-area: artRight;
-  display: block;
-  background-color: goldenrod;
-  width:auto;
-  }
+
 #headlineIMG{
   float:none;
 }
+
 .aside {
   grid-area: aside;
   background-color:aqua;
@@ -177,36 +176,42 @@ ul{
   width: 50px;
 }
 
-#logohead{
+.logohead{
   grid-area: links;
-  width:1110px;
+  width:auto;
   height: 100px;
-  list-style:none;
+  display:flex;
 }
 
 .headmenu{
   display:flex;
   padding: 2px;
   height:65px;
-  width: auto;
+  width: 1100px;
+  list-style: none;
   background-color: bisque; 
 }
 
-#login{
+
+.login{
   grid-area: login;
-  box-sizing:border-box;
+  display:flex;
   background-color:aqua;
   height:90px;
   width: 85px;
-  text-align: center;
   padding: 2px;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
 }
-li{
-box-sizing: border-box; 
+
+ol>nav>li{
+display: flex; 
 background-color: aqua; 
 padding: 5px;
 margin-left: 3%;
+align-items: center;
+justify-content: center;
 }
 
 .flexrow {
