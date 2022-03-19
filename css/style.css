@@ -1,5 +1,5 @@
 body {
-    background-color: lightsalmon;
+    background-image: linear-gradient(pink, cyan, purple);
     font-family: sans-serif;
     width: 1024px;
     margin-left: auto;
@@ -50,7 +50,6 @@ body {
   "art1 aside"  
   "footer footer";  
   gap: 5px;
-  background-color:bisque;
   padding: 10px 0;
   margin-left: 0px;
   width: auto;
